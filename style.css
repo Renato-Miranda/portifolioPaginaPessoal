@@ -5,6 +5,51 @@
     text-decoration: none;
     list-style: none;
 }
-#mensagem {
-    height: 100px;
+
+header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    flex-direction: column row;
+    justify-content: space-between;
+    /* background-image:url(./imagens/matrix.jpg) ; */
+    background-color: #0D080B;
+    align-items: center;
+}
+
+
+nav > ul {
+    display: flex;
+    flex-direction:row;
+    gap: 30px;
+    padding: 10px 20px 10px 10px;
+                            
+
+}
+
+nav > ul > li > a {
+
+    color:#df2d2f ;   
+    font-family: 'MrRobot', sans-serif;                       
+    font-weight: 200;
+}
+
+nav > ul > li > a:hover {
+    font-size: 25px;
+    transition: 0.6s;
+}
+
+h1 {
+    font-family: 'MrRobot', sans-serif; 
+    font-weight: 300;           
+    color:#df2d2f ;                         
+}
+h1:hover {
+    font-size: 45px;
+    transition: 0.6s;
+}
+main {
+    background-color: #BF2441;
+    color: #0D080B;
+    padding: 10px 15px;
 }
