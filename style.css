@@ -84,6 +84,7 @@ img:hover {
     background-color:#0D080B ;
     color: #BF2441;
     height: auto;
+    
 }
 .paragrafo-resumo {
     /* display: flex;
@@ -100,7 +101,7 @@ img:hover {
 
 h2 {
     text-align: center;
-    background-color: #260101;
+    /* background-color: #260101; */
     color: #ffff
 }
 /* interesses ----------------------------------------------- */
@@ -108,17 +109,22 @@ h2 {
 #hobbie {
     display: flex;
     flex-direction: column;
-    justify-content:space-evenly;
+    justify-content:flex-start;
+    align-items:center;
     text-align: center;
     font-size: 30px;
-    height:700px ;
+    height:500px ;
+    gap:70px;
 }
 
 
-.paragrafo-hobbie {
-    line-height: 10px;
-}
 
-.lista-hobbie > li {
-    text-align: left;
+.lista-hobbie  {
+    line-height: 40px;
+}
+/* formulario------------------------------------------------- */
+
+#formulario {
+    background-color:#0D080B ;
+    width: 100%;
 }
