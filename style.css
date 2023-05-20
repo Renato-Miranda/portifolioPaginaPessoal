@@ -63,38 +63,62 @@ main {
     align-items: center;
     background-color: #BF2441;
     color: #0D080B;
-    padding: 10px 15px;
-}
-
-.content {
-    max-width: 1440px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    flex-wrap: wrap;
-    border: 2px solid #0D080B;
-}  
-
-.resumo {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 30px;
-    border: 2px solid #0D080B;
-}
-.paragrafo-resumo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #0D080B;
-    line-height: 80px;
+    padding: 10px 
+    font-family: 'Roboto Slab', serif;
 }
 
 img {
     display: block;
 }
+img:hover {
+    width: 700px; 
+    height: 600px; 
+}
+
+#resumo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 30px;
+    background-color:#0D080B ;
+    color: #BF2441;
+    height: auto;
+}
+.paragrafo-resumo {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    border: 2px solid #0D080B;
+    line-height: 60px;
+    text-align:center;
+    padding: 10px 500px;
+}
 
 
 
+h2 {
+    text-align: center;
+    background-color: #260101;
+    color: #ffff
+}
+/* interesses ----------------------------------------------- */
+
+#hobbie {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    text-align: center;
+    font-size: 30px;
+    height:700px ;
+}
+
+
+.paragrafo-hobbie {
+    line-height: 10px;
+}
+
+.lista-hobbie > li {
+    text-align: left;
+}
