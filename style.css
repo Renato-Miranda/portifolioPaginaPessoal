@@ -74,58 +74,27 @@ main {
     justify-content: space-between;
     padding: 10px 20px;
     flex-wrap: wrap;
+    border: 2px solid #0D080B;
 }  
 
-
-
 .resumo {
-    width: 100%;
-    height: 70vh;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.esquerda, .direita {
- width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  justify-content: center;
-}
-
-.esquerda{
-    align-items:flex-start;
-}
-
-.paragrafo-resumo {
+    flex-direction: column;
+    text-align: center;
     font-size: 30px;
+    border: 2px solid #0D080B;
 }
-
-.eu {
-    display:flex;
-    align-items:center;
-    font-size: 50px;
-    border: 5px black
+.paragrafo-resumo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #0D080B;
+    line-height: 80px;
 }
-
 
 img {
-    width: 400px;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-    justify-content: space-around;
-
+    display: block;
 }
 
-.hobbie {
-    width: 100%;
-    display: inline;
-    justify-content: center;
-    align-items: center;
-}
+
 
