@@ -127,4 +127,26 @@ h2 {
 #formulario {
     background-color:#0D080B ;
     width: 100%;
+    height: 500px;
+    font-size: 30px;
 }
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    gap: 30px;
+    
+}
+
+form {
+    gap: 20px;
+    color: #ffff;
+}
+
+#mensagem {
+    height: 70px;
+    display: flex;
+}
+
