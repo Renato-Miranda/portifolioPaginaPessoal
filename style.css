@@ -63,7 +63,7 @@ main {
     align-items: center;
     background-color: #BF2441;
     color: #0D080B;
-    padding: 10px;
+    padding: 5px;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -71,8 +71,8 @@ img {
     display: block;
 }
 img:hover {
-    width: 700px; 
-    height: 600px; 
+    scale: 105%;
+    transition: .5s;
 }
 
 #resumo {
