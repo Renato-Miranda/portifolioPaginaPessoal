@@ -63,7 +63,7 @@ main {
     align-items: center;
     background-color: #BF2441;
     color: #0D080B;
-    padding: 5px;
+    
     font-family: 'Roboto Slab', serif;
 }
 
@@ -87,10 +87,10 @@ img:hover {
     
 }
 .paragrafo-resumo {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
     border: 2px solid #0D080B;
     line-height: 60px;
     text-align:center;
@@ -121,6 +121,7 @@ h2 {
 
 .lista-hobbie  {
     line-height: 40px;
+    text-align: start;
 }
 /* formulario------------------------------------------------- */
 
@@ -137,12 +138,14 @@ fieldset {
     align-items: center;
     height: 90%;
     gap: 30px;
+    border: none;
     
 }
 
 form {
     gap: 20px;
     color: #ffff;
+    
 }
 
 #mensagem {
@@ -150,3 +153,12 @@ form {
     display: flex;
 }
 
+input[type="submit"] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
