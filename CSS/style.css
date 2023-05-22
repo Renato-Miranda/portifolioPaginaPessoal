@@ -14,7 +14,6 @@ header {
     height: 150px;
     flex-direction: column row;
     justify-content: space-between;
-    /* background-image:url(./imagens/matrix.jpg) ; */
     background-color: #0D080B;
     align-items: center;
 }
@@ -63,7 +62,6 @@ main {
     align-items: center;
     background-color: #BF2441;
     color: #0D080B;
-    
     font-family: 'Roboto Slab', serif;
 }
 
@@ -93,7 +91,7 @@ img:hover {
     justify-content: center;
     border: 2px solid #0D080B;
     line-height: 60px;
-    text-align:center;
+    text-align:start;
     padding: 10px 500px;
 }
 
@@ -145,7 +143,9 @@ fieldset {
 form {
     gap: 20px;
     color: #ffff;
-    
+}
+input[type="text"] {
+    border-radius: 5px;
 }
 
 #mensagem {
