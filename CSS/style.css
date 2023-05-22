@@ -22,7 +22,7 @@ h1 {
     font-family: 'MrRobot', sans-serif;
     font-weight: 300;
     color: #df2d2f;
-    padding-left: 15px ;
+    padding-left: 15px;
     font-size: 100px;
 }
 
@@ -68,6 +68,7 @@ main {
 img {
     display: block;
 }
+
 img:hover {
     scale: 105%;
     transition: .5s;
@@ -79,11 +80,12 @@ img:hover {
     justify-content: space-between;
     text-align: center;
     font-size: 30px;
-    background-color:#0D080B ;
+    background-color: #0D080B;
     color: #BF2441;
     height: auto;
-    
+
 }
+
 .paragrafo-resumo {
     display: flex;
     flex-direction: column;
@@ -91,7 +93,7 @@ img:hover {
     justify-content: center;
     border: 2px solid #0D080B;
     line-height: 60px;
-    text-align:start;
+    text-align: start;
     padding: 10px 500px;
 }
 
@@ -102,29 +104,31 @@ h2 {
     /* background-color: #260101; */
     color: #ffff
 }
+
 /* interesses ----------------------------------------------- */
 
 #hobbie {
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
-    align-items:center;
+    justify-content: flex-start;
+    align-items: center;
     text-align: center;
     font-size: 30px;
-    height:500px ;
-    gap:70px;
+    height: 500px;
+    gap: 70px;
 }
 
 
 
-.lista-hobbie  {
+.lista-hobbie {
     line-height: 40px;
     text-align: start;
 }
+
 /* formulario------------------------------------------------- */
 
 #formulario {
-    background-color:#0D080B ;
+    background-color: #0D080B;
     width: 100%;
     height: 500px;
     font-size: 30px;
@@ -137,13 +141,14 @@ fieldset {
     height: 90%;
     gap: 30px;
     border: none;
-    
+
 }
 
 form {
     gap: 20px;
     color: #ffff;
 }
+
 input[type="text"] {
     border-radius: 5px;
 }
@@ -151,6 +156,12 @@ input[type="text"] {
 #mensagem {
     height: 70px;
     display: flex;
+    margin-bottom: 10px;
+}
+
+.botao-pai {
+    display: flex;
+    justify-content: center;
 }
 
 input[type="submit"] {
@@ -161,6 +172,16 @@ input[type="submit"] {
     border-radius: 4px;
     cursor: pointer;
     float: right;
-  }
+}
 
- 
+/* footer---------------------------------------------------- */
+
+.rodape {
+    background-color: rgb(0, 0, 0);
+    clear: both;
+    padding: 28px;
+    color: rgb(250, 255, 250);
+    font-size: 15px;
+    font-family: "arial", sans-serif;
+    text-align: center;
+}
